@@ -1,0 +1,45 @@
+.createNote{
+    margin:20px auto;
+    width: 60%;
+    background-color: beige;
+    border-radius: 5px;
+}
+
+.createNote__form>form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px
+    
+}
+
+input{
+    border-radius: 5px;
+    height: 20px;
+    outline: none;
+    margin: 6px 0px;
+    border: none;
+    letter-spacing : 1.5px;
+}
+
+textarea{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    
+}
+
+button{
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    outline: none;
+    margin: 5px 0px;
+    border: none;
+}
+
+.createNote__btn{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+}

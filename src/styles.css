@@ -1,0 +1,65 @@
+.navbar{
+    background-color: rgb(2, 33, 63);
+}
+
+.navbar>a{
+    text-decoration: none;
+    color: white;
+}
+.create__note{
+    /* border: 1px solid black; */
+    margin: 20px 250px;
+    padding: 20px;
+    border-radius: 5px;
+    /* background-color: #e4b885; */
+    background-color: rgb(190, 195, 201);
+}
+
+.create__note>form{
+    margin:auto;
+    width:100%; 
+}
+
+form>.btn{
+    transition: 0.5s;
+}
+
+form>.btn:hover{
+    background-color: rgb(2, 33, 63);
+    color: wheat;
+}
+
+.display__notes{
+    width: 100%;
+    margin: auto;
+}
+
+.display__notes>.note{
+    width:20%;
+    margin:10px 10px;
+    transition: all 0.5s;
+    /* background-color: #e4b885; */
+    background-color: rgb(190, 195, 201);
+}
+
+.display__notes>.note:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.card-header{
+    background-color: rgb(2, 33, 63);
+    color: white;
+}
+.card-body>a{
+    color: rgb(72 68 68);
+}
+
+.pop-up{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    top:10%;
+    background-color: black;
+}
+
